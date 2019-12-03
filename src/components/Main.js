@@ -6,7 +6,7 @@ import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import graphql from '../images/graphql.jpg'
-import react from '../images/react.jpg'
+import reactimg from '../images/reactimg.jpg'
 import gats from '../images/gats.jpg'
 
 class Main extends React.Component {
@@ -63,7 +63,7 @@ class Main extends React.Component {
           <hr />
           <h2 className="sectionTitle">1. react製SPAなのでサイトが爆速であること<br /></h2>
           <span className="image main">
-            <img src={react} alt="" />
+            <img src={reactimg} alt="" />
           </span>
           <p>
             Gatsbyはreact製SPA(single Page Applicaion)であるため、ページ遷移がとても速いです。実は皆さんが今見ているこのサイトはGatsbyで作られています。試しにいろいろページをいじってみてください。<br />めちゃめちゃ早いですよね。ページを遷移するときにURLも注目してみてください。URLが一切変化していない事がわかります。このようにSPAとは初期読み込みの際、複数のページをレンダリングすることによってユーザビリティの向上(UXの向上)をする事ができるというメリットがあります。もちろんその都度読み込みをさせることも可能です。VueJSでいうVue Routerみたいなもんですね。<br /><br />
@@ -73,8 +73,8 @@ class Main extends React.Component {
           <hr />
           <h2 className="sectionTitle">2. 最悪、reactの知識がそこまでなくても、ある程度は動かすことができること<br /></h2>
           <p>
-            React VS Vue VS Angular議論を行っているサイトは星の数あります。もちろん開発規模だったりプラグインの有無だったりでそれぞれの得意不得意があったりします。Vueとreactを比較したとき、よく言われているのが学習コストはVueが比較的簡単であり、できることは狭まれる。reactはその逆で学習コストはそこそこ高いものの、できる幅が広い。などなど....<br />reactの取っ掛かりをしてくれるのにもGatsbyが役立ちます。Gatsbyではjavascriptで書くこともできますし、reactのjsx記法もできます。
-            CSSで書くこともできますし、SASS,SCSSも使えます。つまり、自分のレベルに合わせていろいろ変更することが可能です。
+            React VS Vue VS Angular議論を行っているサイトは星の数あります。もちろん開発規模だったりプラグインの有無だったりでそれぞれの得意不得意があったりします。Vueとreactを比較したとき、よく言われているのは、学習コストはVueが比較的少ないが、できることは狭まれてしまう。reactはその逆で学習コストはそこそこ高いものの、できる幅が広い。などなど....<br />reactの取っ掛かりをしてくれるのにもGatsbyが役立ちます。Gatsbyではjavascriptで書くこともできますし、reactのjsx記法もできます。
+            CSSで書くこともできますし、SASS,SCSSも使えます。つまり、自分のレベルに合わせて記法を変更することが可能です。
           <br />なので「フロントはJQueryしかやったことない」みたいな方でも、reactを体系的に学ぶことができます。
           </p>
           <p>
@@ -88,7 +88,7 @@ class Main extends React.Component {
             <img src={graphql} alt="" />
           </span>
           <p>
-            アプリケーションはもちろん、Webサイトを開発するときAPIを使用したい場合、GraphQLをインポートして、いちいちスキーマを定義して、ターミナルでyarn(またはnpm)をたたいて.....みたいな処理を、gatsbyでは自動で行ってくれます。しかもGraphQlを視覚的に実行することができるGraphiQLを使うことができます。
+            アプリケーションはもちろん、Webサイトを開発するときAPIを使用したい場合、GraphQLをインポートして、いちいちスキーマを定義して、ターミナルでyarn(またはnpm)をたたいて.....みたいな処理を、gatsbyでは自動で行ってくれます。しかもGraphQLを視覚的に実行することができるGraphiQLを使うことができます。
           </p>
           <span className="image main">
             <img src={pic04} alt="" />
@@ -132,7 +132,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">フロントエンド2</h2>
+          <h2 className="major">Vuetify</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>

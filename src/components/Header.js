@@ -15,7 +15,7 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('intro') }}>GATSBY JS</a></li>
-                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('work') }}>フロントエンド2</a></li>
+                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('work') }}>Vuetify</a></li>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('about') }}>フロントエンド3</a></li>
             </ul>
         </nav>
