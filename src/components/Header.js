@@ -8,7 +8,7 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>AdventCalnder2019</h1>
+                <h1>Advent Calendar 2019</h1>
                 <p>こんにちは、19日担当の平川です。<br />今回は私がお勧めするフロントエンド技術3選を紹介します。</p>
             </div>
         </div>

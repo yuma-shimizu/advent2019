@@ -17,6 +17,7 @@
 		max-width: 100%;
 		z-index: 3;
 		display: none;
+		font-family: Arial, Helvetica, sans-serif;
 
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
@@ -31,6 +32,12 @@
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
 			opacity: 0;
+
+			&.indent{
+				text-indent: -1em;
+				margin-left: 1em;
+				display: block;
+			}
 
 			&.timeout {
 				display: none;
