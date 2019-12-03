@@ -71,6 +71,16 @@
 				width: 100%;
 			}
 		}
+		&.sub {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 60%;
+		}
+		&.mini {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 30%;
+		}
 
 		@include breakpoint(small) {
 			&.main {

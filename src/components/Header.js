@@ -9,7 +9,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Advent Calendar 2019</h1>
-                <p>こんにちは、19日担当の平川です。<br />今回は私がお勧めするフロントエンド技術3選を紹介します。</p>
+                <p>こんにちは、19日担当の平川さんの下で働かせていただいた清水です。<br />この場をお借りして私がお勧めするフロントエンド技術を3つほど紹介します。</p>
             </div>
         </div>
         <nav>
