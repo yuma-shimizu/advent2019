@@ -8,6 +8,8 @@ import pic05 from '../images/pic05.jpg'
 import graphql from '../images/graphql.jpg'
 import reactimg from '../images/reactimg.jpg'
 import gats from '../images/gats.jpg'
+import vuetify from '../images/vuetify.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -134,10 +136,12 @@ class Main extends React.Component {
         >
           <h2 className="major">Vuetify</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={vuetify} alt="" />
           </span>
           <p>
-            本文
+            VuetifyとはVue.jsのライブラリの1つです。綺麗なマテリアルデザインが特徴なのですが、残念ながらbootstrapVueよりは人気がないです。
+            <a href="https://demos.creative-tim.com/vuetify-material-dashboard-pro/#/" target="_blank">公式デモサイト</a><br />
+
           </p>
           <p>
             本文
