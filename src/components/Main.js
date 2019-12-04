@@ -2,13 +2,18 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import design from '../images/design.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import graphql from '../images/graphql.jpg'
 import reactimg from '../images/reactimg.jpg'
 import gats from '../images/gats.jpg'
+import vue from '../images/vue.jpg'
 import vuetify from '../images/vuetify.jpg'
+import vuescreen from '../images/vuescreen.png'
+import vueTyper from '../images/vueTyper.jpg'
+import userInyerface from '../images/userInyerface.jpg'
+
 
 
 class Main extends React.Component {
@@ -75,8 +80,8 @@ class Main extends React.Component {
           <hr />
           <h2 className="sectionTitle">2. 最悪、reactの知識がそこまでなくても、ある程度は動かすことができること<br /></h2>
           <p>
-            React VS Vue VS Angular議論を行っているサイトは星の数あります。もちろん開発規模だったりプラグインの有無だったりでそれぞれの得意不得意があったりします。Vueとreactを比較したとき、よく言われているのは、学習コストはVueが比較的少ないが、できることは狭まれてしまう。reactはその逆で学習コストはそこそこ高いものの、できる幅が広い。などなど....<br />reactの取っ掛かりをしてくれるのにもGatsbyが役立ちます。Gatsbyではjavascriptで書くこともできますし、reactのjsx記法もできます。
-            CSSで書くこともできますし、SASS,SCSSも使えます。つまり、自分のレベルに合わせて記法を変更することが可能です。
+            React VS Vue VS Angular議論を行っているサイトは星の数あります。もちろん開発規模だったりプラグインの有無だったりでそれぞれの得意不得意があったりします。Vueとreactを比較したとき、よく言われているのは、Vueと比較したときにreactは自由度は増すものの、学習コストが若干高いことです。<br />reactの取っ掛かりをしてくれるのにもGatsbyが役立ちます。GatsbyではJavaScriptやTypeScriptで書くこともできますし、reactのjsx記法もできます。
+            CSSで書くこともできますし、SASS,SCSSも使えます。CMSであるため、一般ユーザー向けにWordPressのようにMarkdownで書くこともできます。つまり、自分のレベルに合わせて記法を変更することが可能です。
           <br />なので「フロントはJQueryしかやったことない」みたいな方でも、reactを体系的に学ぶことができます。
           </p>
           <p>
@@ -107,23 +112,18 @@ class Main extends React.Component {
           </p>
 
           <p>
-            また、reactはwebpackやら、babelやら、ESlintやら、なかなか環境構築が面倒であり、初心者がつまずく原因にもなっています。(もちろんこれらは素晴らしいツールであり、disってはいないです。create-react-appによりそこら辺の必要なものを自動で取り入れてくれているので、だいぶ楽になりました)<br />gatsbyで環境構築する際、それら全部取り入れてくれます。素晴らしいですね。
+            また、reactはwebpackやら、babelやら、ESlintやら、なかなか環境構築が面倒であり初心者を詰ませる原因にもなっています。(もちろんこれらは素晴らしいツールであり、disってはいないです。create-react-appによりそこら辺の必要なものを自動で取り入れてくれているので、だいぶ楽になりました)<br />gatsbyで環境構築する際、それら全部取り入れてくれます。素晴らしいですね。
           </p>
 
           <hr />
           <h2 className="sectionTitle">最後に<br /></h2>
           <p>
-            gatsbyにはまだまだ語れることがたくさんあります。もちろんMVCモデルでいうViewの部分を任せることができますし、netlifyCMSなどを用いれば、ご自分のポートフォリオサイトを作ったり、ブログを作ったりもできます。netlifyCMSではデフォルトではadmin権限でmarkdown形式での記事の投稿も可能です。<br />私事ではありますが、アクシスに入る半年ぐらい前までwebデザイナーとして案件を受けてました。webデザイナーが案件を受けるためにはポートフォリオが必須であり、常に改良・更新をしていた記憶があります。作ったポートフォリオはもちろん就職活動でも活躍しました。ポートフォリオは「自分がどんな人間なのか」「どのぐらいの期間でにどれだけ成長したか」を確認できる貴重な資料だと私は思っています。私の大学時代はgatsbyに常にお世話になっていたので記事にしました。
-            この記事を見て、gatsbyのことを少しでも知っていただけたらうれしいです。<br />(gatsbyの回し者ではありません笑)
+            gatsbyにはまだまだ語れることがたくさんあります。もちろんアプリケーションとしてMVCモデルでいうViewの部分を任せることができますし、netlifyCMSなどを用いれば、ご自分のポートフォリオサイトを作ったり、ブログを作ったりもできます。netlifyCMSではデフォルトではadmin権限でmarkdown形式での記事の投稿も可能です。<br />私事ではありますが、アクシスに入る半年ぐらい前までwebデザイナーとして案件を受けてました。webデザイナーが案件を受けるためにはポートフォリオが必須であり、常に改良・更新をしていた記憶があります。作ったポートフォリオはもちろん就職活動でも活躍しました。ポートフォリオは「自分がどんな人間なのか」「どのぐらいの期間でにどれだけ成長したか」を確認できる貴重な資料だと私は思っています。私の大学時代はgatsbyに常にお世話になっていたので記事にしました。
+            この記事を見て、gatsbyのことを少しでも知っていただけたらうれしいです。<br />(※gatsbyの回し者ではありません笑)
           </p>
           <p>
 
           </p>
-
-
-
-
-
           {close}
         </article>
 
@@ -134,17 +134,51 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Vuetify</h2>
+          <h2 className="major">Vue.js</h2>
+          <p>
+            Vue.jsっていいですよね (*'ω'*)
+          </p>
+          <span className="image main">
+            <img src={vue} alt="" />
+          </span>
+          <p>
+            Vue.jsは「親しみやすい」「融通が効く」「高機能」が特徴のプログレッシブフレームワークです。(公式より)<br />
+            vueはHTML,CSS,JavaScriptを勉強した上で、はじめてSPAを立ち上げたいって方にとてもおすすめです。<br />
+            (※SPAに関してはGatsbyJSの項参照)
+          </p>
+          <p>
+            Vueの特徴としては、「.vue」という独自の拡張子を用いて開発していくことができ、一番主流です。なんとこのvueファイルは、HTML,CSS,JavaScriptをまとめてコンポーネント単位で管理することができるんです!!!
+              <br /><br />
+            どういうことでしょうか....?<br />
+            実際のファイルを見てみましょう～
+          </p>
+          <span className="image main">
+            <img src={vuescreen} alt="" />
+          </span>
+          <p>
+            この画像を見ていただくとある程度察しがつくと思います。vueファイルの中にHTML部,CSS部,JS部があり、これらまとめて1つのファイルになっているんです!!<br /><br />さらにこの最上位の「App.vue」ではJS部には「Welcome.vue」「Card.vue」「Contents.vue」「Copylight.vue」(拡張子省略)をインポートして、HTML部でタグとして呼び出しています。つまり、vueファイルにvueファイルが入れ子になっている状態です。<br />これによってファイル管理がとても楽になり、わざわざ共通CSSを後からcommonに外出しなどする必要もなくなり、外部のCSS,js専用のsrcフォルダなども不要になります。<br />また、UIのコンポーネント(部品・成分)単位で管理しているので、UI/UXデザイナーと開発者が異なる人物であっても視覚的に議論できますし、あとから誰でも触りやすいですよね。
+          </p>
+          <p>
+            以上がvueの大雑把な特徴です。vueにはv-bindやVueRouterなど便利な機能がたくさんあるので、気になった方は調べてみてください。これより下はvueのおすすめのライブラリについて書いていきます。
+          </p>
+          <hr />
+          <h2 className="sectionTitle">vuetify<br /></h2>
           <span className="image main">
             <img src={vuetify} alt="" />
           </span>
           <p>
-            VuetifyとはVue.jsのライブラリの1つです。綺麗なマテリアルデザインが特徴なのですが、残念ながらbootstrapVueよりは人気がないです。
-            <a href="https://demos.creative-tim.com/vuetify-material-dashboard-pro/#/" target="_blank">公式デモサイト</a><br />
-
+            VuetifyとはVue.jsのライブラリの1つです。綺麗なマテリアルデザインが特徴なのですが、残念ながら天下のbootstrapのVue対応バージョンであるbootstrapVueよりは人気がないです。ただ個人的にはbootstrapVueより好きです。笑<br />
+            <a href="https://demos.creative-tim.com/vuetify-material-dashboard-pro/#/" target="_blank">公式デモサイト</a>でいろいろ遊んでみてください<br />
           </p>
+          <hr />
+
+          <h2 className="sectionTitle">vueTyper<br /></h2>
+          <span className="image main">
+            <img src={vueTyper} alt="" />
+          </span>
           <p>
-            本文
+            タイピングしている風に表現できるvue.js専用のライブラリーです。業務ツールなどでは実用性はなさそうですが、デザイナーとしてはとても嬉しいライブラリーです。<br />
+            <a href="https://cngu.github.io/vue-typer/" target="_blank">VueTyper</a>
           </p>
           {close}
         </article>
@@ -156,12 +190,33 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">フロントエンド3</h2>
+          <h2 className="major">design/UI</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={design} alt="" />
           </span>
           <p>
-            本文
+            フロントエンドからは少しずれてしまうのですが、デザインやUIに関して述べていきたいと思います。
+            突然ですが、みなさんの中でデザインやUIはどのぐらいの重要だと考えていますか?<br />
+            人によっては「デザインなんて適当でいい」「UI/UXなんて知らん」なんて考えている人もいると思います。
+          </p>
+          <p>
+            ここで1つのサイトをご紹介します。5ページからなる簡単な入力フォームサイトですが、是非最後までやっていただきたいです。<br />(安全なサイトですのでご安心ください 笑)
+          </p>
+          <span className="inyerface">
+            <a href="https://userinyerface.com/" target="_blank" >
+              <span className="image main">
+                <img src={userInyerface} alt="" />
+                <p>UserInyerface</p>
+              </span>
+            </a>
+          </span>
+
+          <p>
+            どうでしょう、そもそも入力フォームにすらたどりつけない方もいるのではないでしょうか。このUserInyerfaceは人間の慣習と逆うような作りになっており「最悪のUI体験」ができると話題になったものです。
+            いかに人間が、色やアイコン、そして日々の慣習から「勝手にUIを補完」していることがわかります。
+            <br />何が言いたいのかといいますと、デザインやUIというものは人間の脳とインターネットをつなぐ重要な役割を持っているということです。
+
+            <br /><br />(ちなみに最初の答えは、Please click HERE to GO to the next pageの「HERE」を押下するとフォームに飛ぶことができます。最後まで行くと踊ったおっさんが「YOU ARE AWESOME! A true interface legend.(最高です!あなたはインターフェイスのレジェンドです!)と賞賛してくれます」)
           </p>
           {close}
         </article>
