@@ -168,6 +168,7 @@ class Main extends React.Component {
           </span>
           <p>
             VuetifyとはVue.jsのライブラリの1つです。綺麗なマテリアルデザインが特徴なのですが、残念ながら天下のbootstrapのVue対応バージョンであるbootstrapVueよりは人気がないです。ただ個人的にはbootstrapVueより好きです。笑<br />
+            使い方もとても簡単で、コンポーネントをサイトから持ってきて、インポートして、タグを追加するだけでDOMが出現します。bootstrapなどのライブラリと似ていますね。
             <a href="https://demos.creative-tim.com/vuetify-material-dashboard-pro/#/" target="_blank">公式デモサイト</a>でいろいろ遊んでみてください<br />
           </p>
           <hr />
@@ -213,7 +214,7 @@ class Main extends React.Component {
 
           <p>
             どうでしょう、そもそも入力フォームにすらたどりつけない方もいるのではないでしょうか。このUserInyerfaceは人間の慣習と逆うような作りになっており「最悪のUI体験」ができると話題になったものです。
-            いかに人間が、色やアイコン、そして日々の慣習から「勝手にUIを補完」していることがわかります。
+            いかに人間が、色やアイコン、そして日々の慣習から「勝手にUIを補完」していることがわかります。例えば、このサイトもページをもどるときに右上に×ボタンがありますが、経験的にモーダルの外側を押すと戻りそうですよね。
             <br />何が言いたいのかといいますと、デザインやUIというものは人間の脳とインターネットをつなぐ重要な役割を持っているということです。
 
             <br /><br />(ちなみに最初の答えは、Please click HERE to GO to the next pageの「HERE」を押下するとフォームに飛ぶことができます。最後まで行くと踊ったおっさんが「YOU ARE AWESOME! A true interface legend.(最高です!あなたはインターフェイスのレジェンドです!)と賞賛してくれます」)
