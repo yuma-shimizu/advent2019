@@ -71,7 +71,7 @@ class Main extends React.Component {
             <img src={reactimg} alt="" />
           </span>
           <p>
-            Gatsbyはreact製SPA(single Page Applicaion)であるため、ページ遷移がとても速いです。実は皆さんが今見ているこのサイトはGatsbyで作られています。試しにいろいろページをいじってみてください。<br />ネイティブアプリのようにめちゃめちゃ早いですよね。例えば<a href="https://gatsby-starter-hero-blog.greglobinski.com/" target="_blank">このページ</a>でシングルページへ画面遷移するときにファビコン部分に注目してみてください。一切ロードしていないことがわかります。このようにSPAとは初期読み込みの際、複数のページをレンダリングすることによってユーザビリティの向上(UXの向上)をする事ができるというメリットがあります。もちろんその都度読み込みをさせることも可能です。<br /><br />
+            Gatsbyはreact製SPA(single Page Applicaion)であるため、ページ遷移がとても速いです。実は皆さんが今見ているこのサイトはGatsbyで作られています。試しにいろいろページをいじってみてください。<br />ネイティブアプリのようにめちゃめちゃ早いですよね。例えば<a href="https://gatsby-starter-hero-blog.greglobinski.com/" target="_blank" rel="noreferrer noopener">このページ</a>でシングルページへ画面遷移するときにファビコン部分に注目してみてください。一切ロードしていないことがわかります。このようにSPAとは初期読み込みの際、複数のページをレンダリングすることによってユーザビリティの向上(UXの向上)をする事ができるというメリットがあります。もちろんその都度読み込みをさせることも可能です。<br /><br />
             また、Gatsby側でコードの最適化も行ってくれるので、サイト自体の読み込みスピードも向上しています。<br />
           </p>
 
@@ -83,7 +83,7 @@ class Main extends React.Component {
           <br />なので「フロントはJQueryしかやったことない」みたいな方でも、reactを体系的に学ぶことができます。
           </p>
           <p>
-            また、Gatsbyにはスターターテンプレートが豊富にあるので「Reactをとりあえず勉強したけど、create-react-appで１から作るのは.....」みたいな人でも、あっという間にSPAのページを立ち上げることができます。<a href="https://www.gatsbyjs.org/starters/?v=2" target="_blank">公式サイト</a>で見てみたいページをクリックして「Visit demo」からデモが見られます。面白いので是非いじってみてください!!
+            また、Gatsbyにはスターターテンプレートが豊富にあるので「Reactをとりあえず勉強したけど、create-react-appで１から作るのは.....」みたいな人でも、あっという間にSPAのページを立ち上げることができます。<a href="https://www.gatsbyjs.org/starters/?v=2" target="_blank" rel="noreferrer noopener">公式サイト</a>で見てみたいページをクリックして「Visit demo」からデモが見られます。面白いので是非いじってみてください!!
           </p>
 
 
@@ -170,7 +170,7 @@ class Main extends React.Component {
           <p>
             VuetifyとはVue.jsのライブラリの1つです。綺麗なマテリアルデザインが特徴なのですが、残念ながら天下のbootstrapのVue対応バージョンであるbootstrapVueよりは人気がないです。ただ個人的にはbootstrapVueより好きです。笑<br />
             使い方もとても簡単で、コンポーネントをサイトから持ってきて、インポートして、タグを追加するだけでDOMが出現します。bootstrapなどのライブラリと似ていますね。
-            <a href="https://demos.creative-tim.com/vuetify-material-dashboard-pro/#/" target="_blank">公式デモサイト</a>でいろいろ遊んでみてください<br />
+            <a href="https://demos.creative-tim.com/vuetify-material-dashboard-pro/#/" target="_blank" rel="noreferrer noopener">公式デモサイト</a>でいろいろ遊んでみてください<br />
           </p>
           <hr />
 
@@ -180,7 +180,7 @@ class Main extends React.Component {
           </span>
           <p>
             タイピングしている風に表現できるvue.js専用のライブラリーです。業務ツールなどでは実用性はなさそうですが、デザイナーとしてはとても嬉しいライブラリーです。<br />
-            <a href="https://cngu.github.io/vue-typer/" target="_blank">VueTyper</a>
+            <a href="https://cngu.github.io/vue-typer/" target="_blank" rel="noreferrer noopener">VueTyper</a>
           </p>
           {close}
         </article>
@@ -205,7 +205,7 @@ class Main extends React.Component {
             ここで1つのサイトをご紹介します。5ページからなる簡単な入力フォームサイトですが、是非最後までやっていただきたいです。<br />(安全なサイトですのでご安心ください 笑)
           </p>
           <span className="inyerface">
-            <a href="https://userinyerface.com/" target="_blank" >
+            <a href="https://userinyerface.com/" target="_blank" rel="noreferrer noopener" >
               <span className="image main">
                 <img src={userInyerface} alt="" />
                 <p>UserInyerface</p>
