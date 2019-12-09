@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import design from '../images/design.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
@@ -13,7 +12,6 @@ import vuetify from '../images/vuetify.jpg'
 import vuescreen from '../images/vuescreen.png'
 import vueTyper from '../images/vueTyper.jpg'
 import userInyerface from '../images/userInyerface.jpg'
-
 
 
 class Main extends React.Component {
@@ -73,7 +71,7 @@ class Main extends React.Component {
             <img src={reactimg} alt="" />
           </span>
           <p>
-            Gatsbyはreact製SPA(single Page Applicaion)であるため、ページ遷移がとても速いです。実は皆さんが今見ているこのサイトはGatsbyで作られています。試しにいろいろページをいじってみてください。<br />めちゃめちゃ早いですよね。ページを遷移するときにURLも注目してみてください。URLが一切変化していない事がわかります。このようにSPAとは初期読み込みの際、複数のページをレンダリングすることによってユーザビリティの向上(UXの向上)をする事ができるというメリットがあります。もちろんその都度読み込みをさせることも可能です。VueJSでいうVue Routerみたいなもんですね。<br /><br />
+            Gatsbyはreact製SPA(single Page Applicaion)であるため、ページ遷移がとても速いです。実は皆さんが今見ているこのサイトはGatsbyで作られています。試しにいろいろページをいじってみてください。<br />ネイティブアプリのようにめちゃめちゃ早いですよね。例えば<a href="https://gatsby-starter-hero-blog.greglobinski.com/" target="_blank">このページ</a>でシングルページへ画面遷移するときにファビコン部分に注目してみてください。一切ロードしていないことがわかります。このようにSPAとは初期読み込みの際、複数のページをレンダリングすることによってユーザビリティの向上(UXの向上)をする事ができるというメリットがあります。もちろんその都度読み込みをさせることも可能です。<br /><br />
             また、Gatsby側でコードの最適化も行ってくれるので、サイト自体の読み込みスピードも向上しています。<br />
           </p>
 
@@ -118,7 +116,7 @@ class Main extends React.Component {
           <hr />
           <h2 className="sectionTitle">最後に<br /></h2>
           <p>
-            gatsbyにはまだまだ語れることがたくさんあります。もちろんアプリケーションとしてMVCモデルでいうViewの部分を任せることができますし、netlifyCMSなどを用いれば、ご自分のポートフォリオサイトを作ったり、ブログを作ったりもできます。netlifyCMSではデフォルトではadmin権限でmarkdown形式での記事の投稿も可能です。<br />私事ではありますが、アクシスに入る半年ぐらい前までwebデザイナーとして案件を受けてました。webデザイナーが案件を受けるためにはポートフォリオが必須であり、常に改良・更新をしていた記憶があります。作ったポートフォリオはもちろん就職活動でも活躍しました。ポートフォリオは「自分がどんな人間なのか」「どのぐらいの期間でにどれだけ成長したか」を確認できる貴重な資料だと私は思っています。私の大学時代はgatsbyに常にお世話になっていたので記事にしました。
+            gatsbyにはまだまだ語れることがたくさんあります。もちろんアプリケーションとしてMVCモデルでいうViewの部分を任せることができますし、netlifyCMSなどを用いれば、ご自分のポートフォリオサイトを作ったり、ブログを作ったりもできます。netlifyCMSではデフォルトではadmin権限でmarkdown形式での記事の投稿も可能です。<br />私事ではありますが、アクシスに入る半年ぐらい前までwebデザイナーとして案件を受けてました。webデザイナーが案件を受けるためにはポートフォリオが必須であり、常に改良・更新をしていた記憶があります。作ったポートフォリオはもちろん就職活動でも活躍しました。ポートフォリオは「自分がどんな人間なのか」「どのぐらいの期間にどれだけ成長したか」を確認できる貴重な資料だと私は思っています。私の大学時代はgatsbyに常にお世話になっていたので記事にしました。
             この記事を見て、gatsbyのことを少しでも知っていただけたらうれしいです。<br />(※gatsbyの回し者ではありません笑)
           </p>
           <p>
@@ -162,7 +160,7 @@ class Main extends React.Component {
             また、画像では空白になっていますが、JS部のdataのところから、子コンポーネントから親コンポーネントへ値を渡すことも可能ですし、子コンポーネントはpropsで親コンポーネントの値を受け取ることが可能です。
           </p>
           <p>
-            以上がvueの大雑把な特徴です。vueにはv-bindやVueRouterなど便利な機能がたくさんあるので、気になった方は調べてみてください。これより下はvueのおすすめのライブラリについて書いていきます。
+            以上がvueの大雑把な特徴です。vueにはv-bindやVueRouterなど便利な機能がたくさんあるので、気になった方は調べてみてください。これより下はvueの個人的におすすめのライブラリについて書いていきます。
           </p>
           <hr />
           <h2 className="sectionTitle">vuetify<br /></h2>
@@ -200,7 +198,7 @@ class Main extends React.Component {
           </span>
           <p>
             フロントエンドからは少しずれてしまうのですが、デザインやUIに関して述べていきたいと思います。
-            突然ですが、みなさんの中でデザインやUIはどのぐらいの重要だと考えていますか?<br />
+            突然ですが、みなさんの中でデザインやUIはどのぐらい重要だと考えていますか?<br />
             人によっては「デザインなんて適当でいい」「UI/UXなんて知らん」なんて考えている人もいると思います。
           </p>
           <p>
@@ -220,7 +218,7 @@ class Main extends React.Component {
             いかに人間が、色やアイコン、そして日々の慣習から「勝手にUIを補完」していることがわかります。例えば、今あなたが見ているこのページもTOPに戻りたい場合、右上に×ボタンがありますが、経験的にモーダルの外側を押すと戻りそうですよね。
             <br />何が言いたいのかといいますと、デザインやUIというものは人間の脳とインターネットをつなぐ重要な役割を持っているということです。
 
-            <br /><br />(ちなみに最初の答えは、Please click HERE to GO to the next pageの「HERE」を押下するとフォームに飛ぶことができます。最後まで行くと踊ったおっさんが「YOU ARE AWESOME! A true interface legend.(最高です!あなたはインターフェイスのレジェンドです!)と賞賛してくれます」)
+            <br /><br />(ちなみに最初の答えは、Please click HERE to GO to the next pageの「HERE」を押下するとフォームに飛ぶことができます。最後まで行くと踊ったおっさんが「YOU ARE AWESOME! A true interface legend.(最高です!あなたはインターフェイスレジェンドです!)と賞賛してくれます」)
           </p>
           {close}
         </article>
