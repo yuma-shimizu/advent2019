@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import gatsbyjs from '../images/gatsbyjs.jpg'
 import design from '../images/design.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
@@ -40,7 +40,7 @@ class Main extends React.Component {
         >
           <h2 className="major">gatsby JS</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={gatsbyjs} alt="" />
           </span>
           <p>
             「Gatsby」と聞くと、全身銀色のメイクを施した松田翔太の「ヘアジャム」「ヘアジャムじゃない」「ヘアジャム」....以下略<br />を思い出す方がほとんどなのではないかと思います 笑
@@ -116,7 +116,7 @@ class Main extends React.Component {
           <hr />
           <h2 className="sectionTitle">最後に<br /></h2>
           <p>
-            gatsbyにはまだまだ語れることがたくさんあります。もちろんアプリケーションとしてMVCモデルでいうViewの部分を任せることができますし、netlifyCMSなどを用いれば、ご自分のポートフォリオサイトを作ったり、ブログを作ったりもできます。netlifyCMSではデフォルトではadmin権限でmarkdown形式での記事の投稿も可能です。<br />私事ではありますが、アクシスに入る半年ぐらい前までwebデザイナーとして案件を受けてました。webデザイナーが案件を受けるためにはポートフォリオが必須であり、常に改良・更新をしていた記憶があります。作ったポートフォリオはもちろん就職活動でも活躍しました。ポートフォリオは「自分がどんな人間なのか」「どのぐらいの期間にどれだけ成長したか」を確認できる貴重な資料だと私は思っています。私の大学時代はgatsbyに常にお世話になっていたので記事にしました。
+            gatsbyにはまだまだ語れることがたくさんあります。もちろんLaravelなどを用いてアプリケーションとしての使用もできますし、netlifyCMSなどを用いれば、ご自分のポートフォリオサイトを作ったり、ブログを作ったりもできます。netlifyCMSではデフォルトでmarkdown形式での記事の投稿も可能です。<br /><br />私事ではありますが、アクシスに入る半年ぐらい前までwebデザイナーとして案件を受けてました。webデザイナーが案件を受けるためにはポートフォリオが必須であり、常に改良・更新をしていた記憶があります。作ったポートフォリオはもちろん就職活動でも大変活躍しました。ポートフォリオは「自分がどんな人間なのか」「どのぐらいの期間にどれだけ成長したか」を確認できる貴重な資料だと私は思っています。私の大学時代はgatsbyに常にお世話になっていたので記事にしました。
             この記事を見て、gatsbyのことを少しでも知っていただけたらうれしいです。<br />(※gatsbyの回し者ではありません笑)
           </p>
           <p>
