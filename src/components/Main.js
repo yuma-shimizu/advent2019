@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import gatsbyjs from '../images/gatsbyjs.jpg'
 import design from '../images/design.jpg'
+import performance from '../images/performance.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import graphql from '../images/graphql.jpg'
@@ -73,6 +74,12 @@ class Main extends React.Component {
           <p>
             Gatsbyはreact製SPA(single Page Applicaion)であるため、ページ遷移がとても速いです。実は皆さんが今見ているこのサイトはGatsbyで作られています。試しにいろいろページをいじってみてください。<br />ネイティブアプリのようにめちゃめちゃ早いですよね。例えば<a href="https://gatsby-starter-hero-blog.greglobinski.com/" target="_blank" rel="noreferrer noopener">このページ</a>でシングルページへ画面遷移するときにファビコン部分に注目してみてください。一切ロードしていないことがわかります。このようにSPAとは初期読み込みの際、複数のページをレンダリングすることによってユーザビリティの向上(UXの向上)をする事ができるというメリットがあります。もちろんその都度読み込みをさせることも可能です。<br /><br />
             また、Gatsby側でコードの最適化も行ってくれるので、サイト自体の読み込みスピードも向上しています。<br />
+          </p>
+          <span className="image main">
+            <img src={performance} alt="" />
+          </span>
+          <p>
+            このサイトも比較的パフォーマンスが良いことがわかります。SPAの欠点として、最初に複数のページをレンダリングするということでファーストビューが遅くなってしまうということです。そのため用途によって使い分ける必要が出てきます。
           </p>
 
           <hr />
